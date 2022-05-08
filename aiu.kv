@@ -1,0 +1,89 @@
+TextWidget:#:kivy
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        Label:
+            text: root.text
+            font_size: 40
+            size_hint_y: 2
+        BoxLayout:
+            size_hint_y: 4
+            BoxLayout:
+                orientation: 'vertical'
+                Button:
+                    id: button7
+                    text: "なな"
+                    on_press: root.buttonClicked7()
+                Button:
+                    id: button4
+                    text: "よん"
+                    on_press: root.buttonClicked4()
+                Button:
+                    id: button1
+                    text: "いち"
+                    on_press: root.buttonClicked1()
+                Button:
+                    id: buttondot
+                    text: "てん"
+                    on_press: root.buttonClickeddot()
+            BoxLayout:
+                orientation: 'vertical'
+                Button:
+                    id: button8
+                    text: "はち"
+                    on_press: root.buttonClicked8()
+                Button:
+                    id: button5
+                    text: "ご"
+                    on_press: root.buttonClicked5()
+                Button:
+                    id: button2
+                    text: "に"
+                    on_press: root.buttonClicked2()
+                Button:
+                    id: button0
+                    text: "ぜろ"
+                    on_press: root.buttonClicked0()
+            BoxLayout:
+                orientation: 'vertical'
+                Button:
+                    id: button9
+                    text: "きゅう"
+                    on_press: root.buttonClicked9()
+                Button:
+                    id: button6
+                    text: "ろく"
+                    on_press: root.buttonClicked6()
+                Button:
+                    id: button3
+                    text: "さん"
+                    on_press: root.buttonClicked3()
+                Button:
+                    id: buttondivide
+                    text: "わる"
+                    on_press: root.buttonClickeddivide()
+            BoxLayout:
+                orientation: 'vertical'
+                BoxLayout:
+                    Button:
+                        id: buttonc
+                        text: "しょきか"
+                        on_press: root.buttonClickedc()
+                    Button:
+                        text: "は"
+                        on_press: root.buttonClickedequal()
+                Button:
+                    id: buttonminus
+                    text: "ひく"
+                    on_press: root.buttonClickedminus()
+                Button:
+                    id: buttonplus
+                    text: "たす"
+                    on_press: root.buttonClickedplus()
+                Button:
+                    id: buttontimes
+                    text: "かける"
+                    on_press: root.buttonClickedtimes()
